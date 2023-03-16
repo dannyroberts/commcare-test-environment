@@ -1,3 +1,5 @@
+ufw_private_interface: ens5
+
 elasticsearch_endpoint: '{{ groups.elasticsearch.0 }}'
 elasticsearch_memory: '2048m'
 elasticsearch_cluster_name: 'monolith-es'
@@ -72,7 +74,7 @@ TWO_FACTOR_GATEWAY_ENABLED: False
 
 localsettings:
   ALLOWED_HOSTS:
-    - 'monolith.commcarehq.test'
+    - 'localhost'
   BANK_ADDRESS: ~
   BANK_NAME: ~
   BANK_SWIFT_CODE: ~

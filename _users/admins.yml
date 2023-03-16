@@ -1,4 +1,4 @@
 dev_users:
   present:
-    - example  # change this and the corresponding example.pub file
+    - droberts
   absent: []
