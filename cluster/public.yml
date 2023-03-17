@@ -43,6 +43,7 @@ couch_dbs:
     username: "{{ localsettings_private.COUCH_USERNAME }}"
     password: "{{ localsettings_private.COUCH_PASSWORD }}"
     is_https: False
+couchdb_version: 3.3.1
 
 # See the complete list of email addresses in commcare-cloud:
 # src/commcare_cloud/ansible/group_vars/all.yml
