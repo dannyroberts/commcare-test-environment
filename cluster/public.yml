@@ -45,6 +45,7 @@ couch_dbs:
     is_https: False
 couchdb_version: 3.3.1
 
+haproxy_version: '2.4'
 # See the complete list of email addresses in commcare-cloud:
 # src/commcare_cloud/ansible/group_vars/all.yml
 # https://github.com/dimagi/commcare-cloud/blob/master/src/commcare_cloud/ansible/group_vars/all.yml
